@@ -16,12 +16,13 @@
     "fetchSpec": "0.55.4"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "http://registry.npm.taobao.org/react-native/download/react-native-0.55.4.tgz",
   "_shasum": "eecffada3750a928e2ddd07cf11d857ae9751c30",
   "_spec": "react-native@0.55.4",
-  "_where": "/Users/duyan/project/dayang/learn/mobile/familyapp",
+  "_where": "/Users/liuqiang/project/github",
   "bin": {
     "react-native": "local-cli/wrong-react-native.js"
   },

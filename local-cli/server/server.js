@@ -49,15 +49,7 @@ function server(argv: mixed, config: RNConfig, allArgs: Object) {
   const runServerArgs: RunServerArgs = args;
   /* $FlowFixMe: ConfigT shouldn't be extendable. */
   const configT: ConfigT = config;
-/* remotedev-server start */
-    require("remotedev-server")({"secure":false,"hostname":"localhost","port":5678,"showtips":true})
-      .then(_remotedev =>
-        _remotedev.on("ready", () => {
-          if (!_remotedev.portAlreadyUsed) console.log("-".repeat(80));
-        runServer(runServerArgs, configT, startedCallback, readyCallback);
-        })
-      );
-/* remotedev-server end */
+  runServer(runServerArgs, configT, startedCallback, readyCallback);
 }
 
 module.exports = {
