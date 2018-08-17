@@ -8,6 +8,6 @@ rm -rf package react-native-*.tgz
 提交到github，修改项目依赖的提交版本
 
 bug列表
-[iOS][TextInput] Fix controlled TextInput for Chinese (and other languages)
-https://github.com/facebook/react-native/pull/18456/files
-修复方法：pull request
+Blob不可用
+https://github.com/facebook/react-native/pull/19333
+修复方法：撤销修改
