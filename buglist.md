@@ -1,6 +1,6 @@
-更新方法（以更新到react-native0.56.0为例）
+更新方法（以更新到react-native0.57.0为例）
 ls -A | grep -vE '^(\.git|buglist\.md)$' | xargs rm -rf
-wget http://registry.npm.taobao.org/react-native/download/react-native-0.56.0.tgz
+wget http://registry.npm.taobao.org/react-native/download/react-native-0.57.0.tgz
 tar -xf react-native-*.tgz
 cp -r package/. .
 rm -rf package react-native-*.tgz
